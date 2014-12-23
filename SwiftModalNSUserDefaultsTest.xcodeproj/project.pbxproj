@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1AE6321A4801F1001808BA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1AE6311A4801F1001808BA /* SettingsViewController.swift */; };
 		FD9BEB2B1A47C6F600A4AE38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BEB2A1A47C6F600A4AE38 /* AppDelegate.swift */; };
 		FD9BEB2D1A47C6F600A4AE38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9BEB2C1A47C6F600A4AE38 /* ViewController.swift */; };
 		FD9BEB301A47C6F600A4AE38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9BEB2E1A47C6F600A4AE38 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD1AE6311A4801F1001808BA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FD9BEB251A47C6F600A4AE38 /* SwiftModalNSUserDefaultsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftModalNSUserDefaultsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9BEB291A47C6F600A4AE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD9BEB2A1A47C6F600A4AE38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				FD9BEB2A1A47C6F600A4AE38 /* AppDelegate.swift */,
 				FD9BEB2C1A47C6F600A4AE38 /* ViewController.swift */,
 				FD9BEB2E1A47C6F600A4AE38 /* Main.storyboard */,
+				FD1AE6311A4801F1001808BA /* SettingsViewController.swift */,
 				FD9BEB311A47C6F600A4AE38 /* Images.xcassets */,
 				FD9BEB331A47C6F600A4AE38 /* LaunchScreen.xib */,
 				FD9BEB281A47C6F600A4AE38 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				FD9BEB2D1A47C6F600A4AE38 /* ViewController.swift in Sources */,
 				FD9BEB2B1A47C6F600A4AE38 /* AppDelegate.swift in Sources */,
+				FD1AE6321A4801F1001808BA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				FD9BEB461A47C6F600A4AE38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD9BEB471A47C6F600A4AE38 /* Build configuration list for PBXNativeTarget "SwiftModalNSUserDefaultsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				FD9BEB491A47C6F600A4AE38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
